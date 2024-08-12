@@ -8,6 +8,7 @@ public class Method {
 		// we can call a method multiple times 
 		
 		mySecondMethod();
+		myThirdMethod();
 	}
 	
 	static void myFirstMethod() {
@@ -17,4 +18,7 @@ public class Method {
 		System.out.println("My Second Method");
 	}
 
+	static void myThirdMethod() {
+		System.out.println("My Third Method");
+	}
 }
