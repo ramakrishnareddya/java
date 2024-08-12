@@ -1,14 +1,20 @@
 package arithmaticOperators;
 
+import java.util.Scanner;
 
 public class Increment {
 	public static void main(String[] args) {
 
-		 int incvalue = 10;	
-		 
-		incvalue++;
+		Scanner increment = new Scanner(System.in);
 		
-		System.out.println("results: " +  incvalue);
+		System.out.println("Enter value:");
+		int num =increment.nextInt();
+		System.out.println("Original Value: " + num);
+		
+		num++;
+		System.out.println("Increment Value: " + num);
+		
+		increment.close();
 		
 	}
 
