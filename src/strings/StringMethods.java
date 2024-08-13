@@ -9,5 +9,4 @@ public class StringMethods {
 		System.out.println(name.toUpperCase());
 		System.out.println(name1.toLowerCase());
 	}
-
 }
