@@ -3,9 +3,10 @@ package conditions;
 public class IfElse {
 	public static void main(String[] args) {
 		 
-		int age = 16;
-		
-		if (age > 18) {
+		int myage = 16;
+		int eligibility = 18;
+	
+		if (myage > eligibility) {
 			System.out.println("Eligible for vote");
 			
 		} else {
