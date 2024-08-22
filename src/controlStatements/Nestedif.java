@@ -1,11 +1,11 @@
-package conditions;
+package controlStatements;
 
 import java.util.Scanner;
 
 public class Nestedif {
 	public static void main (String [] arge) {
 		
-		int day = 4;
+		int day;
 		
 		try(Scanner sc = new Scanner(System.in)){
 			System.out.println("Enter value: ");
@@ -29,5 +29,4 @@ public class Nestedif {
 			System.out.println("Invalid");
 		}
 	}
-
 }
