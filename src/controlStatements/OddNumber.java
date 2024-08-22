@@ -17,6 +17,7 @@ public class OddNumber {
 	        } else {
 	            System.out.println(number + " is not an odd number.");
 	        }
+
 	}
 
 }
