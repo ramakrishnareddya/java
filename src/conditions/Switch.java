@@ -27,6 +27,7 @@ public class Switch {
 			System.out.println("saturday");
 			break;
 		default:
+			System.out.println("Invalid");
 			break;
 		}
 	}
