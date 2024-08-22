@@ -1,9 +1,15 @@
 package controlStatements;
 
+import java.util.Scanner;
+
 public class Switch {
 	public static void main(String[] args) {
 		
-		int day = 5; 
+		int day; 
+		try(Scanner sc = new Scanner(System.in)){
+			System.out.println("Enter Value");
+			day = sc.nextInt();
+		}
 		switch (day) {
 		case 1:
 			System.out.println("sunday");
